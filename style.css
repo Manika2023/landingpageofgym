@@ -1,0 +1,147 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:ital,wght@1,100&family=Ubuntu:ital,wght@0,400;1,300;1,400;1,500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+   max-width: 80vw;
+   font-family:'Ubuntu', sans-serif;
+}
+
+.navbar{
+        margin-left: -84px;
+        margin-right: -84px;
+    position:sticky;
+    top:0px;
+    left:0px;
+   color: white;
+   background-color: teal;
+    display: flex;
+    height: 67px;
+    font-family:'Ubuntu', sans-serif;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+    cursor: pointer;
+    margin-top: 23px;
+   color: white;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.header{
+   
+}
+.topleft{
+width: 50%;
+
+}
+.topright{
+    width: 50%;
+
+}
+.section1{
+   min-height: 100vh;
+   color:rgb(22, 15, 22);
+   background-color: white;
+}
+.section1 h1{
+    font-size: 2rem;
+    color:teal;
+}
+.section2 h1{
+    font-size: 3rem;
+}
+.logo{
+    font-size:1.3rem;
+
+    }
+    .dumbleimg{
+        /* height: 100px; */
+        width: 280px;
+    }
+.topright .gymimg{
+    width: 466px;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+.section2{
+    padding: -33px;
+    background-color: rgb(247, 252, 253);
+    /* padding: 53px; */
+}
+.section2 h1{
+    font-size: 2.5rem;
+}
+.section3 h1{
+    font-size: 2.5rem;
+}
+.section2 p{
+    padding: 0 1vw;
+    text-align: center;
+}
+.box{
+    margin: 12px 22px;
+    min-width: 20vw;
+    border:2px solid blue;
+    text-align: center;
+    padding: 8px 0px;
+    border-radius: 8px;
+}
+.box ul{
+    list-style: none; 
+}
+.box ul li{
+    margin: 12px 2px;
+}
+.box h2{
+    font-size: 2rem;
+    padding: 15px 0px;
+}
+.highlighted{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.section3 table{
+    width:100%;
+    margin-bottom: 140px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+.section3 table th{
+    padding: 15px 0px;
+    width:23vw;
+    border-bottom: 2px solid black;
+}
+.section3 table td{
+  
+    border-bottom: 2px solid black;
+}
+.section3 table tr{
+    border-bottom: 2px solid black;
+}
+.section3{
+    padding: -33px;
+    background-color: rgb(247, 252, 253);
+   
+
+}
+footer{
+    padding: 23px;
+    text-align: center;
+    background-color: teal;
+    margin-left: -84px;
+    margin-right: -84px;
+}
